@@ -10,9 +10,7 @@
 npm i simple-react-accordion-menu
 ```
 
-
 ![](https://github.com/iamanam/react-accordion-menu/blob/main/demo/accordion-menu-demo.gif)
-
 
 ## Usage
 
@@ -81,6 +79,14 @@ const MENUITEMS = [
   }
 ]
 ```
+
+# Available props
+
+| Name           | Type   | Description                |
+| -------------- | ------ | -------------------------- |
+| width          | String | Width of menu container    |
+| subUlClassName | String | Class names of children Ul |
+| menuItems      | Array  | Menu items in array        |
 
 ## Notice
 
