@@ -1,5 +1,5 @@
 import React from 'react'
-import { AccordionMenu } from 'react-accordion-menu'
+import { AccordionMenu } from 'simple-react-accordion-menu'
 
 // import 'react-accordion-menu/dist/index.css'
 
@@ -45,7 +45,7 @@ const MENUITEMS = [
 const App = () => {
   return (
     <>
-      <div className='menu'>
+      <div id='accordion-menu'>
         <h1>Accordion Menu</h1>
         <AccordionMenu
           width='350px'
