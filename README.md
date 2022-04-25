@@ -10,6 +10,10 @@
 npm i simple-react-accordion-menu
 ```
 
+
+![](https://github.com/iamanam/react-accordion-menu/blob/main/demo/accordion-menu-demo.gif)
+
+
 ## Usage
 
 ```jsx
