@@ -1,0 +1,65 @@
+$FULL_BACKGROUND: #313030;
+$ACTIVE_UL_BACKGROUND: #262626;
+$TEXT_COLOR: white;
+$ACTIVE_TEXT_COLOR: #ef5a5d;
+$ACTIVE_DIV_COLOR: #2b2b2b;
+$BTN_HOVER_BG: #363535;
+
+.multi-level-menu {
+  width: 200px;
+  background: $FULL_BACKGROUND;
+  padding: 0;
+  li {
+    width: 100%;
+    list-style: none;
+    div {
+      justify-content: space-between;
+      display: flex;
+      padding: 10px;
+      a,
+      p {
+        width: calc(100% - 30px);
+        color: $TEXT_COLOR;
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $ACTIVE_TEXT_COLOR;
+      }
+      a:active {
+        color: $TEXT_COLOR;
+      }
+      button {
+        width: 30px;
+        font-size: 20px;
+        color: $TEXT_COLOR;
+        background: none;
+        border: none;
+        &:hover {
+          background: $BTN_HOVER_BG;
+        }
+      }
+    }
+
+    &.selected > div {
+      background: $ACTIVE_DIV_COLOR;
+      a,
+      p {
+        color: $ACTIVE_TEXT_COLOR;
+      }
+    }
+
+    &.selected > ul {
+      background: $ACTIVE_UL_BACKGROUND;
+      display: block;
+      visibility: visible;
+    }
+
+    ul {
+      display: none;
+      visibility: hidden;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.multi-level-menu {
+  width: 200px;
+  background: #313030;
+  padding: 0;
+}
+.multi-level-menu li {
+  width: 100%;
+  list-style: none;
+}
+.multi-level-menu li div {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+}
+.multi-level-menu li div a,
+.multi-level-menu li div p {
+  width: calc(100% - 30px);
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.multi-level-menu li div a:hover {
+  color: #ef5a5d;
+}
+.multi-level-menu li div a:active {
+  color: white;
+}
+.multi-level-menu li div button {
+  width: 30px;
+  font-size: 20px;
+  color: white;
+  background: none;
+  border: none;
+}
+.multi-level-menu li div button:hover {
+  background: #363535;
+}
+.multi-level-menu li.selected > div {
+  background: #2b2b2b;
+}
+.multi-level-menu li.selected > div a,
+.multi-level-menu li.selected > div p {
+  color: #ef5a5d;
+}
+.multi-level-menu li.selected > ul {
+  background: #262626;
+  display: block;
+  visibility: visible;
+}
+.multi-level-menu li ul {
+  display: none;
+  visibility: hidden;
+  padding: 0;
+}
