@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { AccordionMenu } from '.'
 
-describe('ExampleComponent', () => {
+describe('AccordionMenu', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(AccordionMenu).toBeTruthy()
   })
 })

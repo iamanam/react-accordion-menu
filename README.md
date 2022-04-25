@@ -1,4 +1,4 @@
-# react-accordion-menu
+# simple-react-accordion-menu
 
 > A simple dynamically created accordion menu in react
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-accordion-menu
+npm i simple-react-accordion-menu
 ```
 
 ## Usage
@@ -15,9 +15,9 @@ npm install --save react-accordion-menu
 ```jsx
 import React, { Component } from 'react'
 
-import { AccordionMenu } from 'react-accordion-menu'
+import { AccordionMenu } from 'simple-react-accordion-menu'
 
-import 'react-accordion-menu/dist/index.css'
+import 'simple-react-accordion-menu/dist/index.css'
 
 class Example extends Component {
   render() {

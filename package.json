@@ -1,6 +1,6 @@
 {
-  "name": "react-accordion-menu",
-  "version": "1.0.0",
+  "name": "simple-react-accordion-menu",
+  "version": "1.0.1",
   "description": "A simple dynamically created accordion menu in react ",
   "author": "iamanam",
   "license": "MIT",
